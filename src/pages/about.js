@@ -1,3 +1,4 @@
+import Accordion from "@/components/accordion";
 import Contact from "@/components/contact";
 import Container from "@/components/container";
 import Hero from "@/components/hero";
@@ -50,6 +51,23 @@ export default function About() {
             <p>
               私たちは、持続可能な未来を築くために努力しています。環境に配慮した製品を開発し、地域社会に貢献することを重視しています。私たちのビジョンは、すべての人々がより良い生活を送る手助けをすることです。
             </p>
+
+            <h2>FAQ</h2>
+            <Accordion heading="プログラミングのポイントについて">
+              <p>
+                プログラミングのポイントは、基本をしっかり押さえることです。プログラミング言語には共通する概念がありますので、まずは基本的な構文やルールを理解することが大切です。
+              </p>
+            </Accordion>
+            <Accordion heading="美味しいご飯の炊き方について">
+              <p>
+                美味しいご飯の炊き方は、炊飯器の水加減がポイントです。米1合に対して水の量は、1.2合が目安です。また、炊きあがり後は、蓋を開けずに10分ほど蒸らすことで、ふっくらとしたご飯ができあがります。
+              </p>
+            </Accordion>
+            <Accordion heading="肉離れの予防方法について">
+              <p>
+                肉離れの予防方法は、適切なストレッチやウォーミングアップが重要です。また、筋肉を急激に使わないように注意することも大切です。肉離れを予防するためには、適度な運動を心がけることが大切です。
+              </p>
+            </Accordion>
           </PostBody>
         </TwoColumnMain>
 
